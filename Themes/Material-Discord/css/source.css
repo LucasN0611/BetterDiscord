@@ -1,7 +1,7 @@
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/fonts/google-sans.css");
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/icons.css");
 :root {
-  --app-font: "Roboto";
+  --app-font: "Segoe UI";
   --app-bg: var(--main-alt);
   --accent-hue: 235
   --accent-saturation: 71%;
