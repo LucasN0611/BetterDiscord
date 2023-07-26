@@ -1,9 +1,9 @@
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/fonts/google-sans.css");
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/icons.css");
 :root {
-  --app-font: "Google Sans";
+  --app-font: "Roboto";
   --app-bg: var(--main-alt);
-  --accent-hue: 224;
+  --accent-hue: 235
   --accent-saturation: 71%;
   --accent-lightness: 61%;
   --accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
@@ -22,13 +22,13 @@
   --success-color: #43b581;
   --message-radius: 19px;
   --message-padding-top: 8px;
-  --message-padding-side: 12px;
+  --message-padding-side: 8px;
   --main-textarea-color: var(--input-color);
   --main-textarea-border: var(--input-border-color);
   --main-textarea-radius: 24px;
   --media-radius: calc(var(--message-radius) / 1.25);
-  --card-radius: 8px;
-  --card-radius-big: 18px;
+  --card-radius: 5px;
+  --card-radius-big: 10px;
   --button-height: 36px;
   --button-radius: calc(var(--button-height) / 2);
   --button-padding: 0 24px;
@@ -129,6 +129,8 @@
   --window-button-inactive: rgba(255,255,255,0.05);
   --text-brand: hsl(var(--accent-hsl));
   --text-link: hsl(var(--accent-hsl));
+  --saturation-modifier: 0.175;
+	--lightness-modifier: 0.2;
 }
 
 .theme-light {
@@ -195,6 +197,8 @@
   --window-button-inactive: rgba(0,0,0,0.1);
   --text-brand: hsl(var(--accent-hsl));
   --text-link: hsl(var(--accent-hsl));
+  --saturation-modifier: 0.4;
+	--lightness-modifier: 2.175;
 }
 
 /*
